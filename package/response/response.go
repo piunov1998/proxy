@@ -5,4 +5,5 @@ type ProxyResponse struct {
 	Headers map[string][]string `json:"headers"`
 	Body    []byte              `json:"body"`
 	Status  int                 `json:"status"`
+	RawHttp []byte              `json:"raw_http"`
 }

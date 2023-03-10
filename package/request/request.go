@@ -6,4 +6,5 @@ type ProxyRequest struct {
 	Path    string            `json:"path"`
 	Headers map[string]string `json:"headers"`
 	Body    []byte            `json:"body"`
+	RawHttp []byte            `json:"raw_http"`
 }
